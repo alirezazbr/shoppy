@@ -1,12 +1,14 @@
 import React from 'react';
 import { Box } from '@mui/material';
 
-import { Header } from '../../components';
+import { Header, SideMenu } from '../../components';
 
 const Main = ({ children }) => {
     return (
-        <Box component={'div'}>
+        <Box>
             <Header />
+            <SideMenu />
+
             {children}
         </Box>
     );
