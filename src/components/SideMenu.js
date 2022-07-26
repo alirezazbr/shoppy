@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { styled } from '@mui/system';
-import { Box, Grid, Typography, Tooltip, Toolbar, Avatar, Menu, MenuItem, IconButton, Button, Divider } from '@mui/material';
+import { Box, IconButton } from '@mui/material';
 import {  AutoAwesomeMosaic, LocalOffer, Inventory, Assessment, Settings } from '@mui/icons-material';
 
 const sideMenuItems = {
